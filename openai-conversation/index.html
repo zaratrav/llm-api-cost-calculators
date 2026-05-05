@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>OpenAI Cost per Conversation Calculator</title>
+<link rel="stylesheet" href="style.css">
+    <meta name="google-site-verification" content="PkLa_ViOo6FAHpvh8SacceMb95o9tePRdrqLNBz9X1M" />
+</head><body>
+
+<h1>OpenAI Cost per Conversation Calculator</h1>
+<p>Estimate cost based on tokens per conversation.</p>
+
+<label>Tokens per request:</label>
+<input id="tokens" type="number">
+
+<label>Requests:</label>
+<input id="req" type="number">
+
+<label>Cost per 1K tokens ($):</label>
+<input id="cost" type="number">
+
+<button onclick="calc()">Calculate</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body></html>
